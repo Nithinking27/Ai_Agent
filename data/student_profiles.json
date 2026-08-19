@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "S1",
+    "name": "Aisha",
+    "background": "Second-year commerce student, no programming experience.",
+    "goal": "data_scientist",
+    "known_skills": []
+  },
+  {
+    "student_id": "S2",
+    "name": "Rahul",
+    "background": "Self-taught Python developer who has built small scripts and automations.",
+    "goal": "ml_engineer",
+    "known_skills": ["python"]
+  },
+  {
+    "student_id": "S3",
+    "name": "Meera",
+    "background": "Working backend developer comfortable with Python and SQL, wants to grow into system design.",
+    "goal": "backend_developer",
+    "known_skills": ["python", "sql", "api_design"]
+  },
+  {
+    "student_id": "S4",
+    "name": "Devon",
+    "background": "Graphic designer transitioning into web development, knows basic HTML/CSS.",
+    "goal": "frontend_developer",
+    "known_skills": ["html_css"]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "student_id": "S1",
+  "name": "Aisha",
+  "background": "Second-year commerce student, no programming experience.",
+  "known_skills": [],
+  "goal": "Become a Data Scientist",
+  "overall_narrative": "Based on Aisha's background (Second-year commerce student, no programming experience.), this path covers the missing skills needed for Become a Data Scientist in prerequisite order.",
+  "learning_path": [
+    {
+      "step": 1,
+      "course_id": "C001",
+      "course_name": "Python Programming Fundamentals",
+      "level": "beginner",
+      "duration_weeks": 4,
+      "skills_gained": [
+        "python"
+      ],
+      "reason": "Teaches python, which you need for Become a Data Scientist. It has no prerequisites, so it is a good starting point."
+    },
+    {
+      "step": 2,
+      "course_id": "C002",
+      "course_name": "Statistics for Data Analysis",
+      "level": "beginner",
+      "duration_weeks": 3,
+      "skills_gained": [
+        "statistics"
+      ],
+      "reason": "Teaches statistics, which you need for Become a Data Scientist. It has no prerequisites, so it is a good starting point."
+    },
+    {
+      "step": 3,
+      "course_id": "C003",
+      "course_name": "SQL & Relational Databases",
+      "level": "beginner",
+      "duration_weeks": 2,
+      "skills_gained": [
+        "sql"
+      ],
+      "reason": "Teaches sql, which you need for Become a Data Scientist. It has no prerequisites, so it is a good starting point."
+    },
+    {
+      "step": 4,
+      "course_id": "C005",
+      "course_name": "Machine Learning Foundations",
+      "level": "intermediate",
+      "duration_weeks": 5,
+      "skills_gained": [
+        "machine_learning"
+      ],
+      "reason": "Teaches machine_learning, which you need for Become a Data Scientist. It builds on python, statistics."
+    },
+    {
+      "step": 5,
+      "course_id": "C004",
+      "course_name": "Data Visualization with Python",
+      "level": "intermediate",
+      "duration_weeks": 2,
+      "skills_gained": [
+        "data_visualization"
+      ],
+      "reason": "Teaches data_visualization, which you need for Become a Data Scientist. It builds on python, statistics."
+    }
+  ],
+  "summary": {
+    "num_courses": 5,
+    "total_duration_weeks": 16,
+    "course_ids_in_order": [
+      "C001",
+      "C002",
+      "C003",
+      "C005",
+      "C004"
+    ]
+  },
+  "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+}

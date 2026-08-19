@@ -1,0 +1,67 @@
+{
+  "student_id": "S2",
+  "name": "Rahul",
+  "background": "Self-taught Python developer who has built small scripts and automations.",
+  "known_skills": [
+    "python"
+  ],
+  "goal": "Become an ML Engineer",
+  "overall_narrative": "Based on Rahul's background (Self-taught Python developer who has built small scripts and automations.), this path covers the missing skills needed for Become an ML Engineer in prerequisite order.",
+  "learning_path": [
+    {
+      "step": 1,
+      "course_id": "C002",
+      "course_name": "Statistics for Data Analysis",
+      "level": "beginner",
+      "duration_weeks": 3,
+      "skills_gained": [
+        "statistics"
+      ],
+      "reason": "Teaches statistics, which you need for Become an ML Engineer. It has no prerequisites, so it is a good starting point."
+    },
+    {
+      "step": 2,
+      "course_id": "C005",
+      "course_name": "Machine Learning Foundations",
+      "level": "intermediate",
+      "duration_weeks": 5,
+      "skills_gained": [
+        "machine_learning"
+      ],
+      "reason": "Teaches machine_learning, which you need for Become an ML Engineer. It builds on python, statistics."
+    },
+    {
+      "step": 3,
+      "course_id": "C006",
+      "course_name": "Deep Learning with PyTorch",
+      "level": "advanced",
+      "duration_weeks": 6,
+      "skills_gained": [
+        "deep_learning"
+      ],
+      "reason": "Teaches deep_learning, which you need for Become an ML Engineer. It builds on machine_learning."
+    },
+    {
+      "step": 4,
+      "course_id": "C007",
+      "course_name": "MLOps & Model Deployment",
+      "level": "advanced",
+      "duration_weeks": 4,
+      "skills_gained": [
+        "mlops"
+      ],
+      "reason": "Teaches mlops, which you need for Become an ML Engineer. It builds on machine_learning."
+    }
+  ],
+  "summary": {
+    "num_courses": 4,
+    "total_duration_weeks": 18,
+    "course_ids_in_order": [
+      "C002",
+      "C005",
+      "C006",
+      "C007"
+    ]
+  },
+  "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+}

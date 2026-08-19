@@ -1,0 +1,234 @@
+[
+  {
+    "student_id": "S1",
+    "name": "Aisha",
+    "background": "Second-year commerce student, no programming experience.",
+    "known_skills": [],
+    "goal": "Become a Data Scientist",
+    "overall_narrative": "Based on Aisha's background (Second-year commerce student, no programming experience.), this path covers the missing skills needed for Become a Data Scientist in prerequisite order.",
+    "learning_path": [
+      {
+        "step": 1,
+        "course_id": "C001",
+        "course_name": "Python Programming Fundamentals",
+        "level": "beginner",
+        "duration_weeks": 4,
+        "skills_gained": [
+          "python"
+        ],
+        "reason": "Teaches python, which you need for Become a Data Scientist. It has no prerequisites, so it is a good starting point."
+      },
+      {
+        "step": 2,
+        "course_id": "C002",
+        "course_name": "Statistics for Data Analysis",
+        "level": "beginner",
+        "duration_weeks": 3,
+        "skills_gained": [
+          "statistics"
+        ],
+        "reason": "Teaches statistics, which you need for Become a Data Scientist. It has no prerequisites, so it is a good starting point."
+      },
+      {
+        "step": 3,
+        "course_id": "C003",
+        "course_name": "SQL & Relational Databases",
+        "level": "beginner",
+        "duration_weeks": 2,
+        "skills_gained": [
+          "sql"
+        ],
+        "reason": "Teaches sql, which you need for Become a Data Scientist. It has no prerequisites, so it is a good starting point."
+      },
+      {
+        "step": 4,
+        "course_id": "C005",
+        "course_name": "Machine Learning Foundations",
+        "level": "intermediate",
+        "duration_weeks": 5,
+        "skills_gained": [
+          "machine_learning"
+        ],
+        "reason": "Teaches machine_learning, which you need for Become a Data Scientist. It builds on python, statistics."
+      },
+      {
+        "step": 5,
+        "course_id": "C004",
+        "course_name": "Data Visualization with Python",
+        "level": "intermediate",
+        "duration_weeks": 2,
+        "skills_gained": [
+          "data_visualization"
+        ],
+        "reason": "Teaches data_visualization, which you need for Become a Data Scientist. It builds on python, statistics."
+      }
+    ],
+    "summary": {
+      "num_courses": 5,
+      "total_duration_weeks": 16,
+      "course_ids_in_order": [
+        "C001",
+        "C002",
+        "C003",
+        "C005",
+        "C004"
+      ]
+    },
+    "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+  },
+  {
+    "student_id": "S2",
+    "name": "Rahul",
+    "background": "Self-taught Python developer who has built small scripts and automations.",
+    "known_skills": [
+      "python"
+    ],
+    "goal": "Become an ML Engineer",
+    "overall_narrative": "Based on Rahul's background (Self-taught Python developer who has built small scripts and automations.), this path covers the missing skills needed for Become an ML Engineer in prerequisite order.",
+    "learning_path": [
+      {
+        "step": 1,
+        "course_id": "C002",
+        "course_name": "Statistics for Data Analysis",
+        "level": "beginner",
+        "duration_weeks": 3,
+        "skills_gained": [
+          "statistics"
+        ],
+        "reason": "Teaches statistics, which you need for Become an ML Engineer. It has no prerequisites, so it is a good starting point."
+      },
+      {
+        "step": 2,
+        "course_id": "C005",
+        "course_name": "Machine Learning Foundations",
+        "level": "intermediate",
+        "duration_weeks": 5,
+        "skills_gained": [
+          "machine_learning"
+        ],
+        "reason": "Teaches machine_learning, which you need for Become an ML Engineer. It builds on python, statistics."
+      },
+      {
+        "step": 3,
+        "course_id": "C006",
+        "course_name": "Deep Learning with PyTorch",
+        "level": "advanced",
+        "duration_weeks": 6,
+        "skills_gained": [
+          "deep_learning"
+        ],
+        "reason": "Teaches deep_learning, which you need for Become an ML Engineer. It builds on machine_learning."
+      },
+      {
+        "step": 4,
+        "course_id": "C007",
+        "course_name": "MLOps & Model Deployment",
+        "level": "advanced",
+        "duration_weeks": 4,
+        "skills_gained": [
+          "mlops"
+        ],
+        "reason": "Teaches mlops, which you need for Become an ML Engineer. It builds on machine_learning."
+      }
+    ],
+    "summary": {
+      "num_courses": 4,
+      "total_duration_weeks": 18,
+      "course_ids_in_order": [
+        "C002",
+        "C005",
+        "C006",
+        "C007"
+      ]
+    },
+    "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+  },
+  {
+    "student_id": "S3",
+    "name": "Meera",
+    "background": "Working backend developer comfortable with Python and SQL, wants to grow into system design.",
+    "known_skills": [
+      "python",
+      "sql",
+      "api_design"
+    ],
+    "goal": "Become a Backend Developer",
+    "overall_narrative": "Based on Meera's background (Working backend developer comfortable with Python and SQL, wants to grow into system design.), this path covers the missing skills needed for Become a Backend Developer in prerequisite order.",
+    "learning_path": [
+      {
+        "step": 1,
+        "course_id": "C009",
+        "course_name": "System Design Essentials",
+        "level": "advanced",
+        "duration_weeks": 4,
+        "skills_gained": [
+          "system_design"
+        ],
+        "reason": "Teaches system_design, which you need for Become a Backend Developer. It builds on api_design, sql."
+      }
+    ],
+    "summary": {
+      "num_courses": 1,
+      "total_duration_weeks": 4,
+      "course_ids_in_order": [
+        "C009"
+      ]
+    },
+    "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+  },
+  {
+    "student_id": "S4",
+    "name": "Devon",
+    "background": "Graphic designer transitioning into web development, knows basic HTML/CSS.",
+    "known_skills": [
+      "html_css"
+    ],
+    "goal": "Become a Frontend Developer",
+    "overall_narrative": "Based on Devon's background (Graphic designer transitioning into web development, knows basic HTML/CSS.), this path covers the missing skills needed for Become a Frontend Developer in prerequisite order.",
+    "learning_path": [
+      {
+        "step": 1,
+        "course_id": "C011",
+        "course_name": "JavaScript Essentials",
+        "level": "beginner",
+        "duration_weeks": 3,
+        "skills_gained": [
+          "javascript"
+        ],
+        "reason": "Teaches javascript, which you need for Become a Frontend Developer. It builds on html_css."
+      },
+      {
+        "step": 2,
+        "course_id": "C012",
+        "course_name": "React for Web Apps",
+        "level": "intermediate",
+        "duration_weeks": 4,
+        "skills_gained": [
+          "react"
+        ],
+        "reason": "Teaches react, which you need for Become a Frontend Developer. It builds on javascript."
+      },
+      {
+        "step": 3,
+        "course_id": "C013",
+        "course_name": "UI/UX Design Basics",
+        "level": "beginner",
+        "duration_weeks": 2,
+        "skills_gained": [
+          "ui_ux_basics"
+        ],
+        "reason": "Teaches ui_ux_basics, which you need for Become a Frontend Developer. It has no prerequisites, so it is a good starting point."
+      }
+    ],
+    "summary": {
+      "num_courses": 3,
+      "total_duration_weeks": 9,
+      "course_ids_in_order": [
+        "C011",
+        "C012",
+        "C013"
+      ]
+    },
+    "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+  }
+]

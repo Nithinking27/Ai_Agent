@@ -1,0 +1,139 @@
+{
+  "goals": {
+    "data_scientist": {
+      "label": "Become a Data Scientist",
+      "required_skills": ["python", "statistics", "sql", "machine_learning", "data_visualization"]
+    },
+    "backend_developer": {
+      "label": "Become a Backend Developer",
+      "required_skills": ["python", "sql", "api_design", "system_design"]
+    },
+    "ml_engineer": {
+      "label": "Become an ML Engineer",
+      "required_skills": ["python", "machine_learning", "deep_learning", "mlops"]
+    },
+    "frontend_developer": {
+      "label": "Become a Frontend Developer",
+      "required_skills": ["html_css", "javascript", "react", "ui_ux_basics"]
+    }
+  },
+  "courses": [
+    {
+      "id": "C001",
+      "name": "Python Programming Fundamentals",
+      "skills_taught": ["python"],
+      "prerequisites": [],
+      "level": "beginner",
+      "duration_weeks": 4,
+      "description": "Core Python syntax, data structures, functions, and file I/O."
+    },
+    {
+      "id": "C002",
+      "name": "Statistics for Data Analysis",
+      "skills_taught": ["statistics"],
+      "prerequisites": [],
+      "level": "beginner",
+      "duration_weeks": 3,
+      "description": "Descriptive stats, probability, distributions, hypothesis testing."
+    },
+    {
+      "id": "C003",
+      "name": "SQL & Relational Databases",
+      "skills_taught": ["sql"],
+      "prerequisites": [],
+      "level": "beginner",
+      "duration_weeks": 2,
+      "description": "Querying, joins, aggregations, schema design basics."
+    },
+    {
+      "id": "C004",
+      "name": "Data Visualization with Python",
+      "skills_taught": ["data_visualization"],
+      "prerequisites": ["python", "statistics"],
+      "level": "intermediate",
+      "duration_weeks": 2,
+      "description": "Matplotlib, Seaborn, and dashboarding fundamentals."
+    },
+    {
+      "id": "C005",
+      "name": "Machine Learning Foundations",
+      "skills_taught": ["machine_learning"],
+      "prerequisites": ["python", "statistics"],
+      "level": "intermediate",
+      "duration_weeks": 5,
+      "description": "Supervised/unsupervised learning, scikit-learn, model evaluation."
+    },
+    {
+      "id": "C006",
+      "name": "Deep Learning with PyTorch",
+      "skills_taught": ["deep_learning"],
+      "prerequisites": ["machine_learning"],
+      "level": "advanced",
+      "duration_weeks": 6,
+      "description": "Neural networks, CNNs, RNNs, transfer learning."
+    },
+    {
+      "id": "C007",
+      "name": "MLOps & Model Deployment",
+      "skills_taught": ["mlops"],
+      "prerequisites": ["machine_learning"],
+      "level": "advanced",
+      "duration_weeks": 4,
+      "description": "Model packaging, CI/CD for ML, monitoring in production."
+    },
+    {
+      "id": "C008",
+      "name": "REST API Design with FastAPI",
+      "skills_taught": ["api_design"],
+      "prerequisites": ["python"],
+      "level": "intermediate",
+      "duration_weeks": 3,
+      "description": "Designing and building REST APIs, auth, and documentation."
+    },
+    {
+      "id": "C009",
+      "name": "System Design Essentials",
+      "skills_taught": ["system_design"],
+      "prerequisites": ["api_design", "sql"],
+      "level": "advanced",
+      "duration_weeks": 4,
+      "description": "Scalability, caching, load balancing, distributed systems basics."
+    },
+    {
+      "id": "C010",
+      "name": "HTML & CSS Fundamentals",
+      "skills_taught": ["html_css"],
+      "prerequisites": [],
+      "level": "beginner",
+      "duration_weeks": 2,
+      "description": "Semantic HTML, responsive layout, and CSS fundamentals."
+    },
+    {
+      "id": "C011",
+      "name": "JavaScript Essentials",
+      "skills_taught": ["javascript"],
+      "prerequisites": ["html_css"],
+      "level": "beginner",
+      "duration_weeks": 3,
+      "description": "JS syntax, DOM manipulation, async programming."
+    },
+    {
+      "id": "C012",
+      "name": "React for Web Apps",
+      "skills_taught": ["react"],
+      "prerequisites": ["javascript"],
+      "level": "intermediate",
+      "duration_weeks": 4,
+      "description": "Components, hooks, state management, and routing."
+    },
+    {
+      "id": "C013",
+      "name": "UI/UX Design Basics",
+      "skills_taught": ["ui_ux_basics"],
+      "prerequisites": [],
+      "level": "beginner",
+      "duration_weeks": 2,
+      "description": "Design principles, wireframing, and usability heuristics."
+    }
+  ]
+}

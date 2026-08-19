@@ -1,0 +1,55 @@
+{
+  "student_id": "S4",
+  "name": "Devon",
+  "background": "Graphic designer transitioning into web development, knows basic HTML/CSS.",
+  "known_skills": [
+    "html_css"
+  ],
+  "goal": "Become a Frontend Developer",
+  "overall_narrative": "Based on Devon's background (Graphic designer transitioning into web development, knows basic HTML/CSS.), this path covers the missing skills needed for Become a Frontend Developer in prerequisite order.",
+  "learning_path": [
+    {
+      "step": 1,
+      "course_id": "C011",
+      "course_name": "JavaScript Essentials",
+      "level": "beginner",
+      "duration_weeks": 3,
+      "skills_gained": [
+        "javascript"
+      ],
+      "reason": "Teaches javascript, which you need for Become a Frontend Developer. It builds on html_css."
+    },
+    {
+      "step": 2,
+      "course_id": "C012",
+      "course_name": "React for Web Apps",
+      "level": "intermediate",
+      "duration_weeks": 4,
+      "skills_gained": [
+        "react"
+      ],
+      "reason": "Teaches react, which you need for Become a Frontend Developer. It builds on javascript."
+    },
+    {
+      "step": 3,
+      "course_id": "C013",
+      "course_name": "UI/UX Design Basics",
+      "level": "beginner",
+      "duration_weeks": 2,
+      "skills_gained": [
+        "ui_ux_basics"
+      ],
+      "reason": "Teaches ui_ux_basics, which you need for Become a Frontend Developer. It has no prerequisites, so it is a good starting point."
+    }
+  ],
+  "summary": {
+    "num_courses": 3,
+    "total_duration_weeks": 9,
+    "course_ids_in_order": [
+      "C011",
+      "C012",
+      "C013"
+    ]
+  },
+  "rationale_source": "fallback (Groq unavailable; configured model: openai/gpt-oss-120b)"
+}
